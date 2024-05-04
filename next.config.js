@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const { withContentlayer } = require('next-contentlayer')
+
 const nextConfig = {
     images: {
        remotePatterns: [
@@ -8,7 +10,9 @@ const nextConfig = {
           pathname: '**',
         },
        ]
-      }
+      },
+      reactStrictMode: true,
+      swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = withContentLayer(nextConfig)
