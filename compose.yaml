@@ -1,0 +1,15 @@
+services:
+  front:
+    build: .
+    container_name: front-app
+
+    develop:
+      watch:
+      - action: sync
+        path: .
+        target: /app
+
+    ports:
+      - 3000:3000
+
+    command: npm run dev; npx contentlayer build
