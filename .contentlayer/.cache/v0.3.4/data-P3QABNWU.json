@@ -1,0 +1,27 @@
+{
+  "cacheItemsMap": {
+    "lessons/hola.mdx": {
+      "document": {
+        "title": "Hola\r",
+        "body": {
+          "raw": "Hola ondo",
+          "html": "<p>Hola ondo</p>"
+        },
+        "_id": "lessons/hola.mdx",
+        "_raw": {
+          "sourceFilePath": "lessons/hola.mdx",
+          "sourceFileName": "hola.mdx",
+          "sourceFileDir": "lessons",
+          "contentType": "mdx",
+          "flattenedPath": "lessons/hola"
+        },
+        "type": "Doc",
+        "slug": "/lessons/hola",
+        "slugAsParams": "hola"
+      },
+      "documentHash": "1714854164443",
+      "hasWarnings": false,
+      "documentTypeName": "Doc"
+    }
+  }
+}
