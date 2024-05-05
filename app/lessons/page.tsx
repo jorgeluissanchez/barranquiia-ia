@@ -8,9 +8,8 @@ import {
 } from "@/components/ui/card"
 import { Building, Users, LibraryBig, BookCopy } from 'lucide-react';
 
-
 export default function Page() {
   return (
-    <div></div>
+    <div>Helloo</div>
   )
 }
